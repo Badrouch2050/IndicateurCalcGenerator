@@ -39,6 +39,7 @@ public class GenerateClassAction extends AnAction {
                 Messages.showMessageDialog(project, "Class name cannot be empty.", "Error", Messages.getErrorIcon());
                 return;
             }
+            //
 
             // Obtient le répertoire cible où l'utilisateur a cliqué
             VirtualFile virtualFile = event.getData(CommonDataKeys.VIRTUAL_FILE);
