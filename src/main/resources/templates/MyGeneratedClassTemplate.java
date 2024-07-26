@@ -13,9 +13,7 @@ import org.springframework.stereotype.Service;
 import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.Map;
-import java.util.function.Predicate;
 
-import static fr.bpce.bef.utils.IndicateursTools.IsOneOfValuesNotNull;
 
 @Service("${CLASS_SERVICE}")
 public class ${CLASS_NAME} extends AbstractIndicateurCalcul {
@@ -42,15 +40,12 @@ public class ${CLASS_NAME} extends AbstractIndicateurCalcul {
     /**
      *
      *
-     * @param allPoste             : Map Code/Valeur des postes d'EF
+     * @param allPoste  Map Code/Valeur des postes d'EF
      * @param indicateurCentralDto Resultat des indicateurs calculés
      * @throws BefException Exception Fonctionnelle BEFException
      */
-
     private void calculeIndicateurModel2050(Map<String, BigDecimal> allPoste, IndicateurCentralDto indicateurCentralDto) throws BefException {
         try {
-
-            }
 
         } catch (Exception e) {
             LOGGER.log(Level.ERROR, MESSAGEEROR2050);
