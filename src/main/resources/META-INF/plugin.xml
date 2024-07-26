@@ -25,17 +25,15 @@
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
 
-
     </extensions>
 
     <actions>
         <!-- Add your actions here -->
 
-
             <action id="com.bpce.fr.genindo.GenerateClassAction"
                     class="genindo.GenerateClassAction"
-                    text="Generate Class"
-                    description="Generate a new Java class from a template">
+                    text="Generate Calcul Indicateur "
+                    description="Generate a  Calcul Indicateur from a template">
                 <add-to-group group-id="NewGroup" anchor="last"/>
             </action>
 

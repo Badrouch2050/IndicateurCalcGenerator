@@ -59,7 +59,7 @@ public class GenerateClassAction extends AnAction {
             }
 
             // Remplacer les placeholders dans le template par les valeurs saisies
-            classTemplate = classTemplate.replace("${CLASS_NAME}", className).replace("${EXTRA_FIELD}", extraField);
+            classTemplate = classTemplate.replace("${CLASS_NAME}", className).replace("${CLASS_SERVICE}", extraField);
 
             // Crée le fichier Java à partir du template
             PsiFileFactory fileFactory = PsiFileFactory.getInstance(project);
